@@ -42,7 +42,7 @@ int JOY_MAX = 3100; // will be calculated later in CalStick()
 const int btn[BUTTON_COUNT] = { BTN_A, BTN_B, BTN_Z, BTN_C_UP, BTN_C_DOWN, BTN_C_LEFT, BTN_C_RIGHT, BTN_L, BTN_R, PAD_UP, PAD_DOWN, PAD_LEFT, PAD_RIGHT, BTN_START };
 const int joy_btn[BUTTON_COUNT] = { BUTTON_1, BUTTON_2, BUTTON_9, BUTTON_4, BUTTON_5, BUTTON_6, BUTTON_7, BUTTON_8, BUTTON_3, BUTTON_10, BUTTON_11, BUTTON_12, BUTTON_13, BUTTON_14 };
 
-bool debug_enable = true;
+bool debug_enable = false;
 
 // Joystick State
 unsigned int cur_x = 0;
